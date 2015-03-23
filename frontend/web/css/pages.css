@@ -1,0 +1,175 @@
+/* CSS Document */
+
+#content{ width:100%; height:897px; margin:0px auto; background:url(../images/bg1.jpg) no-repeat center top, url(../images/bg2.jpg) no-repeat center 200px, url(../images/bg3.jpg) no-repeat center 400px,url(../images/bg4.jpg) no-repeat center 600px;}
+#cont{ width:1200px; height:auto;margin:0px auto; padding-top:130px;}
+#cont .cont_left{ float:left; width:150px; height:515px;  margin:0px 31px 0px 26px;} 
+#cont .cont_left .cont_left_bt{ background:url(../images/lefticon.png) no-repeat 105px 25px #55BA64;; color:#FFFFFF; box-shodow:1px 1px 1px #ccc; height:53px; border-bottom:1px solid #4BA559; padding-left:21px; padding-top:15px; }
+#cont .cont_left .cont_left_bt span{ font-size:18px;} 
+#cont .cont_left .cont_left_list{ padding-top:15px;background:#55BA64; padding-bottom:90px;}
+#cont .cont_left .cont_left_list ul li{ height:40px; line-height:40px; width:150px; text-align:center; }
+#cont .cont_left .cont_left_list ul li a{ color:#FFFFFF;} 
+#cont .cont_left .cont_left_list ul li a:hover{ font-size:16px;}
+#cont .cont_left .cont_left_list ul li.hover a{ font-size:16px;}
+
+
+
+#cont .cont_right{ float:left; width:964px; height:auto; background:#55BA64; position:relative;}
+#cont .cont_right .cont_right_weizhi{ font-size:12px; color:#A5E0AF; padding:8px 0px 0px 20px; border-bottom:1px solid #4FAE5D; height:60px; line-height:60px;}
+#cont .cont_right .cont_right_weizhi span{ margin:0px 3px;} 
+#cont .cont_right .cont_right_nr{ width:460px; height:527px; background:url(../images/contact.jpg) no-repeat left top #FFFFFF;  padding-left:504px; position:relative;}
+#cont .cont_right .cont_right_nr p.lianxi{ font-size:48px; color:#55ba64; margin:0px 0px 20px 10px; padding-top:20px;} 
+#cont .cont_right .cont_right_nr p.lianxi img{ margin-right:10px;} 
+#cont .cont_right .cont_right_nr .juti{ font-size:14px; color:#2f2e29; line-height:27px;}
+#cont .cont_right .cont_right_nr .juti p.style{ font-size:18px; margin-bottom:8px; }
+#cont .cont_right .biaozhi{ position:absolute; right:0px; bottom:0px;} 
+#cont .cont_right .cont_right_nr .map{ width:357px;height:185px;border:4px solid #55BA64; border-radius:5px; margin-top:30px;}
+
+
+.clear{ clear:both;}
+
+/*分页*/
+.fenye{ width:964px; text-align:center; color:#FFFFFF; padding-top:20px; padding-bottom:30px; background:#55BA64; }
+.fenye a{ color:#FFFFFF; display:inline-block; margin:0px 10px;}
+
+/*------华粮联盟-联系我们-------*/
+<!--引用百度地图API-->
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+/*------华粮联盟-合作客户-------*/
+.hezuo{ width:919px; height:478px; background:#55ba64; padding-top:48px; padding-left:45px; position:relative; }
+.hezuo ul li{ width:266px; height:147px;  float:left; margin:19px 12px;}
+
+
+/*------走进华粮-科研创新-------*/
+.zoujin{ margin-top:15px; }
+.zoujin .zoujin_bt{ font-size:24px; color:#fff4c5; width:30px; float:left; padding:0px 30px 0px 65px;}
+.zoujin .zoujin_nr{ float:left; width:750px; position:relative;} 
+.zoujin .zoujin_nr .zoujin_nr_img{ width:360px; text-align:center; color:#ffffff; float:left;}
+.zoujin .zoujin_nr .zoujin_nr_img img{ margin-bottom:10px;}
+.zoujin .zoujin_nr p{ line-height:25px;color:#ffffff;}
+
+/*------走进华粮-品牌理念-------*/
+.linian_bt{ width:776px; border-bottom:1px solid #ffffff;height:40px; line-height:40px; margin-bottom:20px; padding-bottom:3px;}
+.linian_bt ul li{ width:130px;  float:left; text-align:center; color:#FFFFFF; font-size:14px;}
+.linian_bt ul li.hover{ border-bottom:4px solid #fff4c5; cursor:pointer;}
+.linian_nr{ width:776px; height:auto;}
+.linian_nr .hide{ color:#FFFFFF; line-height:25px; display:none;}
+
+
+/*------走进华粮-新闻列表页-------*/
+.new_iconimg{ margin:10px 0px 20px 0px;}
+.new_list ul li{ width:767px;  height:44px;margin-bottom:10px;}
+.new_list ul li .styleone{ width:88px; height:37px; background:#4FAE5D; float:left; color:#ffffff; padding:7px 0px 0px 14px;}
+.new_list ul li .styletwo{ width:542px; height:44px; line-height:44px; float:left;  padding-left:20px; background:#5bc36a;} 
+.new_list ul li .styletwo a{ color:#FFFFFF; font-size:13px; }
+.new_list ul li .styletwo a:hover{ text-decoration:underline;} 
+.new_list ul li .stylethree{width:100px; height:44px; line-height:44px; color:#b5b4b4; background:#44a452; float:left; text-align:center;}
+
+
+/*------走进华粮-新闻内容页-------*/
+.new{ width:964px; height:auto;}
+.newcont{ width:795px; margin:0px auto;}
+.newcont .newcont_bt{ font-size:14px; color:#ffffff; margin-bottom:25px; padding-top:10px; text-align:center;}
+.newcont .newcont_bt p.js{ font-size:11px; margin:5px 0px;}
+.newcont .newcont_nr{ color:#FFFFFF; line-height:25px;}
+
+
+/*------走进华粮-企业荣誉-------*/
+.rongyu{ width:904px; height:auto; padding-top:20px; padding-left:60px;}
+.rongyu .rongyu_bt{ width:24px; font-size:24px; color:#fff4c5; float:left; margin-right:35px;}
+.rongyu .rongyu_sj{ width:780px; float:left; padding-top:12px;}
+.rongyu .rongyu_sj ul li{ width:28px; height:95px; background:#418E4C; color:#FFFFFF; margin-right:24px; font-size:15px; float:left; padding:15px 0px 0px 15px;}
+.rongyu .rongyu_sj ul li.hover{ background:#e4f4e6; color:#418E4C; border:2px solid #418E4C; cursor:pointer; height:91px;}
+.rongyu .rongyu_jx{ width:850px; height:auto; padding-top:63px;}
+.rongyu .rongyu_jx .rongyu_jx_list{width:860px; height:auto; display:none; }
+.rongyu .rongyu_jx .rongyu_jx_list ul li{ width:255px; height:212px; background:rgba(255,255,255,0.2); float:left; padding:12px 10px 12px 10px; margin-right:10px; margin-bottom:10px; box-shadow:1px 1px 1px #4DAA5D; -webkit-box-shadow:1px 1px 1px #4DAA5D; -moz-box-shadow:1px 1px 1px #4DAA5D; -o-box-shadow:1px 1px 1px #4DAA5D;}
+.rongyu .rongyu_jx .rongyu_jx_list ul li p{ width:255px; text-align:center; font-size:16px; color:#FFFFFF; height:30px; line-height:30px;}
+.rongyu .rongyu_jx .rongyu_jx_list ul li .list_img{ width:256px; height:180px; position:relative; left:0px; top:0px; overflow:hidden;}
+.rongyu .rongyu_jx .rongyu_jx_list ul li .list_img img{ position:absolute; left:0px; top:0px; }
+
+
+/*------走进华粮-------*/
+.hualiang{ width:944px; height:auto; padding-top:27px; padding-left:20px;}
+.hualiang .hualiang_img{ width:427px; height:406px; float:left;}
+.hualiang .hualiang_nr{ width:415px; float:left; margin-left:38px;} 
+.hualiang .hualiang_nr .nr_bt{ font-size:48px; color:#FFFFFF; margin-top:-25px;} 
+.hualiang .hualiang_nr .nr_bt span{ font-size:72px;}
+.hualiang .hualiang_nr .nr_xiaobt{ font-size:18px; color:#fff3c5; margin:30px 0px 20px 0px;}
+.hualiang .hualiang_nr p{ color:#FFFFFF; line-height:25px;} 
+
+
+/*------走进华粮-团队介绍-------*/
+.tuandui{ width:964px; height:auto; padding-top:20px; padding-left:42px;}
+.wc960{width:885px; }
+.count{overflow:hidden;}
+.icon{background:url(../images/lrarrow.png) no-repeat 0 0;}
+.btn{display:block;height:23px;position:absolute;top:0px;width:23px;z-index:200;cursor:pointer;}
+.prev{ background-position:0 -23px;right:0px;top: 26px;}
+.next{ background-position:0 0px;;right: 50px;top: 26px;}
+
+ul li.yy{ width:885px; float:left;}
+ul li.yy .yy_bt{ font-size:18px; color:#fff4c5; margin-bottom:25px;} 
+ul li.yy .yy_img{ width:367px; height:338px; float:left; margin-right:45px;} 
+ul li.yy .yy_js{  width:467px;float:left; color:#FFFFFF;}
+ul li.yy .yy_js .js_xbt{ font-size:18px; margin-bottom:25px;}
+ul li.yy .yy_js p{ line-height:25px;}
+
+ul li.yy .cjwt_list{ width:567px; height:144px; background:url(../img/ysbg2.png) no-repeat right bottom #FF4C4E; padding-left:10px; padding-top:7px; margin-top:10px;} 
+ul li.yy .cjwt_list p.cjwt_list_bt{ font-size:18px; color:#ffffff; margin-bottom:0px; background:url(../img/jia2.jpg) no-repeat left top; padding-left:33px; line-height:38px;} 
+ul li.yy .cjwt_list p.cjwt_list_js{ font-size:12px; color:#FFA9AA; line-height:23px; width:385px; margin-left:33px;} 
+
+.tuandui .renyuan{ color:#FFFFFF; font-size:14px; margin-top:60px; margin-bottom:50px;}
+.tuandui .renyuan span{ color:#fff4c5; margin-left:25px; }
+
+
+/*------农博会-下级-------*/
+#cont2{ width:964px; margin:0px auto; position:relative;padding-top:130px;}
+#cont2 .cont2_right_weizhi{ font-size:12px; color:#A5E0AF; padding:8px 0px 0px 20px; border-bottom:1px solid #4FAE5D; height:60px; line-height:60px; background:#55BA64; }
+#cont2 .cont2_right_weizhi span{ margin:0px 3px;}
+#cont2 .nbh{ width:964px; text-align:center; padding-top:33px; color:#FFFFFF; background:#55BA64;}
+#cont2 .nbh .nbh_bt{ font-size:14px;} 
+#cont2 .nbh .nbh_img img{ margin-right:20px; margin-top:40px; margin-bottom:30px;} 
+#cont2 .nbh .nbh_nr{ line-height:25px; width:750px; text-align:left; margin-left:105px;}
+#cont2 .biaozhi{ position:absolute; right:0px; bottom:0px;}  
+
+/*------农博会-------*/
+
+.nbh .nbh_leftbt{ width:24px; font-size:24px; color:#fff4c5; float:left; margin-right:35px; margin-left:63px;}
+.nbh .nbh_rightnr{ width:760px; float:left; }
+
+.nbh .nbh_rightnr li{width:219px; height:399px; margin:0px 10px; color:#FFFFFF;float:left;display:inline; background:#ffffff; position:relative; padding:5px; margin-bottom:20px; overflow:hidden}
+.nbh .nbh_rightnr li.hover{ background:#43a952;}
+a.img_wrap22{font-size:12px; color:#FFFFFF;}
+.cplist22{ width:229px; height:409px; }
+.cplist22 .cplist_img22{ width:219px; height:367px; overflow:hidden; position:absolute;left:5px; top:5px; z-index:1;} 
+.cplist22 .cplist_js22{ width:219px; height:40px;position:absolute; left:5px; bottom:5px; z-index:22; background:#ffffff;}
+.cplist22 .cplist_js22 p.hh22{ background:#FFFFFF;height:40px;} 
+.cplist22 .cplist_js22 p.hh22 span.xbt22{ width:180px; height:40px; line-height:40px; font-size:16px; text-align:center; display:inline-block; background:#6d695a; float:left}
+.cplist22 .cplist_js22 p.hh22 span.jt22{ width:37px; height:26px; display:inline-block; text-align:center; padding-top:14px; float:right; background: url(../images/xia.png) no-repeat center center #6d695a;}
+.cplist22 .cplist_js22 p.hh22 span.jt22 img{ display:none;} 
+
+.cplist22 .cplist_js22 p.hh22 span.jt44{ width:37px; height:26px; display:inline-block; text-align:center; padding-top:14px; float:right; background: url(../images/shang2.png) no-repeat center center #FF4C4E;}
+.cplist22 .cplist_js22 p.hh22 span.jt44 img{ display:none;} 
+.cplist22 .cplist_js22 p.xx22{ padding:15px; line-height:25px; display:none; color:#6d695a; text-align:left;}
+.cplist22 .cplist_js22 p.xx22 a{ color:#55BA64;}
+
+
+
+/*------华粮联盟-加入我们-------*/
+.jiaru{ width:964px; height:auto; color:#FFFFFF; padding:20px 0px 0px 60px; background:url(../images/pin.png) no-repeat 720px 20px;} 
+.jiaru .jiaru_bt{ font-size:14px; border-bottom:1px solid #FFFFFF; padding-bottom:8px; width:625px; margin-bottom:10px;}
+.jiaru .jiaru_bt span{ font-size:18px;} 
+.jiaru p{ line-height:25px; width:625px;}
+.jiaru .jiaru_zhiwei ul li{ line-height:25px; width:370px; float:left;}
+
+
+/*------华粮联盟-网站地图-------*/
+.ditu{width:964px; height:auto; color:#FFFFFF; padding:20px 0px 0px 60px;}
+.ditu ul li{ width:153px; float:left; background:url(../images/nav_bg.png) no-repeat right top; height:363px;}
+.ditu ul li p{ display:none;}
+.ditu ul li p a{ color:#FFFFFF; display:block; height:35px; line-height:35px; font-size:14px; text-align:center;} 
+.ditu ul li span a{ font-size:18px; display:block; height:50px; line-height:50px; color:#FFFFFF; text-align:center;}
+.ditu ul li span a:hover{ text-decoration:underline;} 
+.ditu ul li P a:hover{ background:#FFFFFF; color:#009933; transition:background 0.5s;-webkit-transition:background 0.5s;-moz-transition:background 0.5s;-o-transition:background 0.5s}
+
